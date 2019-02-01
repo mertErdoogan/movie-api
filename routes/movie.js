@@ -24,7 +24,7 @@ router.get('/', (req, res, next) => {
   });
 });
 
-router.get('/withD', (req, res) => {
+router.get('/', (req, res) => {
   const promise = Movie.aggregate([
     {
       $lookup: {
