@@ -53,6 +53,7 @@ router.get('/:movie_id', (req, res, next) => {
     if (!movie)
       next({ message: 'The movie is not found' });
 
+      
     res.json({movie});
   }).catch((err) => {
     res.json(err);

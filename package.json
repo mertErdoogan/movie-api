@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "start:dev": "node ./bin/www",
     "start": "nodemon ./bin/www",
     "test": "mocha --exit --recursive"
   },
@@ -20,6 +21,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
+    "heroku": "^7.21.0",
     "mocha": "^5.2.0"
   }
 }
